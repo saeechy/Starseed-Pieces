@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Landing Page | St⭑rseed Pieces</title>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="../scss/styles.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f7a6d6f70c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="../images/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/logo.png"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="/" class="nav-link">Home</a></li>
+                <li><a href="/featured" class="nav-link">Featured</a></li>
+                <li><a href="/product" class="nav-link">Products</a></li>
+                <li><a href="/contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+        <div class="header">
+            <h1>St⭑rseed Pieces</h1>
+            <div class="up-stars">
+                <img src="../images/up-stars.svg" alt="">
+            </div>
+            <div class="social">
+                <a href="https://www.instagram.com/starseed__pieces" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@starseedpieces" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+    <!-- stars and bg -->
+        <img class="noise fade" src="../images/noise.svg" alt="star"> <!--noise-->
+        <div class="stars">
+            <img class="star4 rotate-center" src="../images/star.svg" alt="star">
+            <img class="star5 rotate-reverse" src="../images/star.svg" alt="star">
+            <img class="star6 rotate-center" src="../images/star.svg" alt="star">
+            <img class="star7 rotate-reverse" src="../images/star.svg" alt="star">
+        </div>
+
+        <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active i1">
+                        <img src="../images/set.png" alt="available sets" style="width:100%;">
+                        <div class="overlay">
+                            <div class="over-text"><h3>Marvelous piece of the universe</h3></div>
+                            <a href="/featured">
+                                <div>
+                                    <h3 class="button">FEATURED ITEMS</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item i2">
+                        <img src="../images/limited.png" alt="limited set" style="width:100%;">
+                        <div class="overlay">
+                            <div class="over-text"><h3>Limited collections available</h3></div>
+                        </div>
+                    </div>
+                    
+                    <div class="item i3">
+                        <img src="../images/front.png" alt="welcome" style="width:100%;">
+                        <div class="overlay">
+                            <h2>Divinely Created</h2>
+                            <a href="https://www.instagram.com/starseed__pieces/" target="_blank">
+                                <a href="/product">
+                                    <div>
+                                        <h3 class="button">SHOP NOW</h3>
+                                    </div>
+                                </a>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Features -->
+        <div class="features">
+            <div>
+                <p><img class="star rotate-reverse" src="../images/star.svg" alt="star">
+                Timeless</p>
+            </div>
+            <div>
+                <p><img class="star rotate-reverse" src="../images/star.svg" alt="star">
+                Elegant</p>
+            </div>
+            <div>
+                <p><img class="star rotate-reverse" src="../images/star.svg" alt="star">
+                Durable</p>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div class="footer-links">
+                <a href="/products">Product List</a>
+                <a href="/messages">Customer Messages</a>
+                <a href="/customer">Customer Info</a>
+            </div>
+            <p>Established 2021 Created by Team Star Rocket</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

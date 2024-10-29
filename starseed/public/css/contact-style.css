@@ -1,0 +1,44 @@
+.message-container {
+    width: 100%;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.message-container img {
+    width: 300px;
+    margin: 0 auto;
+}
+.contact-form {
+    min-width: 70%;
+}
+.contact-head {
+    margin: 3% 0;
+}
+.contact-btn, .customer-messages button{
+    background-color: #d9d9d9;
+    color: #1a1a15;
+}
+.contact-btn:hover, .customer-messages button:hover {
+    box-shadow: 0 0 3px antiquewhite;
+}
+.back-btn {
+    text-decoration: underline !important;
+}
+.contact-form select, tr:nth-child(odd){
+    color: #1a1a15;
+}
+th {
+    color: antiquewhite;
+}
+.map-container {
+    position: relative;
+    padding-top: 20%;
+    max-height: 50px;
+    margin: 0 auto;
+  }
+  
+  .map {
+    position: absolute;
+    top: 125px;
+    width: 100%;
+    height: 50%;
+  }
